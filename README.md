@@ -9,12 +9,12 @@ Intrinsic intelligent bearing: Ultrahigh-speed in situ sensing via the asymmetri
   - NumPy 
   - Pandas 
   - Scikit-learn 
-- **Non-standard Hardware:** No non-standard hardware is required. A standard GPU is recommended for faster training, but the code can also execute successfully on a standard CPU.
+- **Non-standard Hardware:** No non-standard hardware is required. A standard GPU (e.g., NVIDIA T4/V100 or consumer-grade RTX series) is recommended for faster training, but the code can also execute successfully on a standard CPU.
 
 ## 2. Installation Guide
 The code is provided as a standalone Jupyter Notebook (`.ipynb`). 
 - **Instructions:** 1. Clone or download this repository to your local machine.
-  2. Ensure you have Jupyter Notebook or JupyterLab installed.
+  2. Ensure you have Jupyter Notebook or JupyterLab installed in your Python environment.
   3. Install the required dependencies via pip. You can run the following command in your terminal:
      `pip install torch numpy pandas scikit-learn`
 - **Typical install time:** Approximately 2-5 minutes on a normal desktop computer, depending on network speed.
@@ -40,7 +40,6 @@ We provide a simulated small-scale dataset (`.npy` files) in this repository to 
 ## 4. Reproduction Instructions (Optional but Recommended)
 To reproduce the quantitative analysis and visualization charts presented in the manuscript, we have included automated post-processing functions at the end of the notebook. After training, you can run the respective cells to execute:
 - **Feature Visualization:** Run `export_tsne_to_csv()` to extract 2D manifold features.
-- **Physical Mask Analysis:** Run `export_masks_to_csv()` to retrieve the dynamic bandwidths and center shifts of the physical filter nodes.
 - **GAT Attention Weights:** Use `export_gat_attention()` to output the graph adjacency matrices for interpretation.
 - **Confusion Matrix:** Execute `export_confusion_matrix_to_csv()` for detailed classification accuracy breakdown.
 
