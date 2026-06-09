@@ -1,8 +1,5 @@
 # Intrinsic-intelligent-bearing
 Intrinsic intelligent bearing: Ultrahigh-speed in situ sensing via the asymmetric tribovoltaic effect
-# Physics-Informed TVNG Bearing Fault Diagnosis Network
-
-This repository contains the official code and a demo dataset for the manuscript submitted to *Nature Communications*, which proposes a Speed-Informed Physics-Guided Graph Attention Network for ultrahigh-speed in situ sensing via the asymmetric tribovoltaic effect.
 
 ## 1. System Requirements
 - **Operating System:** Platform-independent (Windows / Linux / macOS).
